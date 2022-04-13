@@ -16,6 +16,7 @@ sudo sh oci-boot-script.sh
 - Virtual Memory: 4GB
 - Port Open: 21, 22, 80, 81, 443, 8000, 9443
 - Docker
+  - Docker-compose
   - Network: npm-net
   - Container
     - Nginx Proxy Manager
