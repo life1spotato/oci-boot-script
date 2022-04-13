@@ -24,6 +24,8 @@ sudo ufw status
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
+sudo apt-get -y install docker-compose
+
 sudo mkdir -p /data/npm
 sudo docker run -d -p 80:80 -p 443:443 -p 81:81 --name npm --restart=unless-stopped -v /data:/data -v /letsencrypt:/etc/letsencrypt jc21/nginx-proxy-manager:latest
 
